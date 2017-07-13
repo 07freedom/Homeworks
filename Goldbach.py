@@ -15,6 +15,6 @@ def Goldbach(n):
 		if n-prime in primes:
 			return ([prime, n-prime])
 	
-print (Goldbach(80000))
+print (Goldbach(100000))
 endtime = datetime.datetime.now()
 print (endtime - starttime)
