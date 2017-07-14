@@ -18,4 +18,4 @@ def snake(N):
 N = 5
 M = snake(N)
 for i in range(N):
-	print (M[i])
+	print (list(M[i]))
